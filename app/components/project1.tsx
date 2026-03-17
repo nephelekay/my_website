@@ -1,4 +1,4 @@
-export default function Welcome() {
+export default function Project1() {
   return (
     <div className="bg-[#E9E4D3] min-h-screen flex items-center justify-center">
       <h1 className="text-black font-normal" style={{ fontSize: '18px' }}>
@@ -8,13 +8,13 @@ export default function Welcome() {
         src="/profile1.jpg"
         alt="Profile 1"
         width="285"
-        className="absolute top-52 left-2"
+        className="absolute top-70 left-2"
       />
       <img
         src="/orange_roses.png"
         alt="Orange Roses"
         width="500"
-        className="absolute bottom-44 right-2"
+        className="absolute top-14 right-2"
       />
     </div>
   );
