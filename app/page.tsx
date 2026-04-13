@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <div className="bg-[#E9E4D3] min-h-screen relative">
       <div className="flex flex-row gap-4 justify-end p-6">
+        <Link href="/">HOME</Link>
         <Link href="/projects">WORK</Link>
         <Link href="/about">ABOUT</Link>
         <Link href="/contact">CONTACT</Link>

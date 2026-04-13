@@ -6,15 +6,10 @@ const Projects = () => {
     <div className="bg-[#203B8F] min-h-screen relative p-6">
       <div className="flex flex-col items-center mb-110">
         <div className="w-full flex justify-end gap-4 p-6">
-          <Link href="/projects" className="text-black font-normal" style={{ fontSize: '18px' }}>
-            WORK
-          </Link>
-          <Link href="/about" className="text-black font-normal" style={{ fontSize: '18px' }}>
-            ABOUT
-          </Link>
-          <Link href="/contact" className="text-black font-normal" style={{ fontSize: '18px' }}>
-            CONTACT
-          </Link>
+          <Link href="/" className="text-black">HOME</Link>
+          <Link href="/projects" className="text-black">WORK</Link>
+          <Link href="/about" className="text-black">ABOUT</Link>
+          <Link href="/contact" className="text-black">CONTACT</Link>
         </div>
         <div className="flex justify-center w-full">
           <h1 className="text-black font-normal" style={{ fontSize: '16px' }}>

@@ -5,15 +5,10 @@ const Contact = () => {
   return (
     <div className="bg-[#737373] min-h-screen relative p-6 text-white">
       <div className="flex justify-end gap-4 p-6">
-        <Link href="/projects" className="font-normal text-[18px]">
-          WORK
-        </Link>
-        <Link href="/about" className="font-normal text-[18px]">
-          ABOUT
-        </Link>
-        <Link href="/contact" className="font-normal text-[18px]">
-          CONTACT
-        </Link>
+        <Link href="/">HOME</Link>
+        <Link href="/projects">WORK</Link>
+        <Link href="/about">ABOUT</Link>
+        <Link href="/contact">CONTACT</Link>
       </div>
       <div className="absolute top-25 left-0 w-full text-[13px]">
         <div className="relative w-full">
@@ -70,8 +65,8 @@ const Contact = () => {
           <span className="absolute left-3/4 -translate-x-1/2">K</span>
         </div>
       </div>
-
     </div>
   );
 };
+
 export default Contact;
